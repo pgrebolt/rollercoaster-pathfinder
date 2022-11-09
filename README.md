@@ -2,6 +2,7 @@
 ## This is a prelimiary version of the code
 
 This code reconstructs a full rollercoaster track from the linear and angular accelerations measured during the ride. The data was taken using the Roller Coaster mode in the Physics Toolbox Suite mobile app. This data is stored in the .csv file. First, all points are moved to the same system of reference, based at the initial point. Calculations are made based on a self-developed integrating method. With this, the relative angle at each time is calculated from the angular velocity. Linear velocity and position are similarly calculated from linear acceleration. A coordinate redefinition is made since the position of the mobile phone (the data recorder) changes during the ride. As a check, the initial and final positions should be the same.
+Noteto the user: some comments and variable names may be written in Catalan.
 
 ---
 
